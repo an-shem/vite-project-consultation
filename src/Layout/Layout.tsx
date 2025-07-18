@@ -8,10 +8,10 @@ export default function Layout(): JSX.Element {
       <header>
         <NavBar />
       </header>
-      <main className="flex-1 bg-cyan-50">
+      <main className="flex flex-1 justify-center items-center bg-cyan-50">
         <Outlet />
       </main>
-      <footer className="flex items-center justify-center min-h-30 bg-slate-700 text-cyan-50 text-4xl">Footer</footer>
+      <footer className="flex items-center justify-center min-h-30 bg-cyan-800 text-cyan-50 text-4xl">Footer</footer>
     </div>
   );
 }
