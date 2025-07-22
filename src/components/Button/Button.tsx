@@ -1,15 +1,14 @@
+import { buttonStyles } from './styles';
+
 interface Props {
   title: string;
-  onClick: () => void;
+  type: 'submit' | 'reset' | 'button' | undefined;
+  onClick?: () => void;
 }
 
-export default function Button({ title, onClick }: Props) {
+export default function Button({ title, type, onClick }: Props) {
   return (
-    <button
-      type="button"
-      className="p-5 w-full bg-[#1F27F5] text-xl font-semibold text-center text-white rounded-[4px]"
-      onClick={onClick}
-    >
+    <button type={type} className={buttonStyles} onClick={onClick}>
       {title}
     </button>
   );

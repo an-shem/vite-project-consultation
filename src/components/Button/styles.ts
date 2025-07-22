@@ -1,0 +1,1 @@
+export const buttonStyles= "p-5 w-full bg-[#1F27F5] text-xl font-semibold text-center text-white rounded-[4px]"

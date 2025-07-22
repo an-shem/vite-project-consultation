@@ -1,0 +1,9 @@
+.employeeForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 590px;
+  padding: 60px;
+  background: #fff;
+  border-radius: 4px;
+}
